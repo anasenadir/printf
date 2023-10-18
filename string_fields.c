@@ -12,7 +12,7 @@ char *get_percision(char *str, params_t *params, va_list ap)
 {
 	int d = 0;
 
-	if (*str == '.')
+	if (*str != '.')
 		return (str);
 
 	str++;
