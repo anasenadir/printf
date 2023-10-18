@@ -107,7 +107,12 @@ int print_number_right_shift(char *str, params_t *params)
 	return (n);
 }
 
-
+/**
+* print_number_left_shift - prnits a number with options
+* @str: the base number as a string
+* @params: the params struct pointer
+* Return: string pointer
+*/
 int print_number_left_shift(char *str, params_t *params)
 {
 	unsigned int n = 0, neg, neg2, i = _strlen(str);

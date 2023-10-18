@@ -29,10 +29,8 @@ int _printf(const char *format, ...)
 			sum += _putchar(*ptr);
 			continue;
 		}
-
 		start = ptr;
 		ptr++;
-
 		while (get_flag(ptr, &params))
 			ptr++;
 
